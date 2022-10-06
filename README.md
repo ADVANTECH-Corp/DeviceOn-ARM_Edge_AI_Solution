@@ -3,6 +3,8 @@
 
 >Architecture
 
+![image](image/project_architecture.png)
+
 >Use Case
 
 ## ML | Label training data
