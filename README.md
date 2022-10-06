@@ -7,6 +7,8 @@
 
 >Use Case
 
+![image](image/scenario.png)
+
 ## ML | Label training data
 ## ML | Train an accurate enough AI model
 ## DEV | Encapsulate a portable AI application
