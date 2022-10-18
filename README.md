@@ -11,7 +11,7 @@ When it comes to a production stage for edge AI solutions, the topic of continuo
 
 | Category  | Product | Key Benefits & Features |
 | ------------- | ------------- | ------------- |
-| ML SaaS | Edge Impulse | Easily customize your own state-of-the-art AI models for your dedicated use case that no ML expertise is required |
+| ML SaaS | Edge Impulse | Easily customize your own state-of-the-art AI models for your **dedicated use case** that no ML expertise is required |
 | Dev. Pipeline | Azure DevOps | Complete or complementary services provision to automate development pipeline for packaging your AI application and cross-region development|
 | Deployment & Mgmt. | **DeviceOn** | Central mgmt. platform to remotely update AI applications (OTA), and monitor and control large-scale devices at ease |
 | AI Edge | **AIR-020** | ??? while yielding 100% performance in 55 °C environments |
