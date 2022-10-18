@@ -24,18 +24,18 @@ When it comes to a production stage for edge AI solutions, the topic of continuo
 In the following, a use case for production line management will be introduced. It will demonstrate how Advantech supports customers to construct a production-stage edge AI solution with edge AI related products by Advantech. It didn’t end in POC and moreover aimed to create a continuously operational edge AI application.
 In this use case of PCB production management, customers tried to find a way to get notifications immediately for specific production issues. Therefore they would like to adopt a vision AI solution to improve management efficiency and reduce production loss. In the beginning, customers analyzed key factors of production capability monitoring. One is to make sure there is always a WIP of PCB in a production line to be manufactured. The other one is to know if an operator in the target workstation can operate correctly and produce normally. For operator recognition by a vision AI method in this scene, it’s easily be affected by different camera capture angles and different operator positions. To enhance recognition precision and reliability of operator existence in this practice, except for general person detection, it’s also necessary to detect a cap, gloves and tools worn or operated by an operator in each capture. To deal with such a complicated recognition problem, it always needs a compatible AI algorithm/model and powerful edge AI computing device. In the following sections, let’s find out how the above-mentioned Advantech edge AI products can be adopted to help construct an edge AI application into a production phase in which continuous maintenance is also considered.
 
-[**ML | Label training data**](ML%20|%20Label%20training%20data.md)
+* ### [**ML | Label training data**](ML%20|%20Label%20training%20data.md)
 
-[**ML | Train an accurate enough AI model**](ML%20|%20Train%20an%20accurate%20enough%20AI%20model.md)
+* ### [**ML | Train an accurate enough AI model**](ML%20|%20Train%20an%20accurate%20enough%20AI%20model.md)
 
-[**DEV | Encapsulate a portable AI application**](DEV%20|%20Encapsulate%20a%20portable%20AI%20application.md)
+* ### [**DEV | Encapsulate a portable AI application**](DEV%20|%20Encapsulate%20a%20portable%20AI%20application.md)
 
-[**DEV | Automate AI lifecycle**](DEV%20|%20Automate%20AI%20lifecycle.md)
+* ### [**DEV | Automate AI lifecycle**](DEV%20|%20Automate%20AI%20lifecycle.md)
 
-[**OPS | Deploy AI to any edge**](OPS%20|%20Deploy%20AI%20to%20any%20edge.md)
+* ### [**OPS | Deploy AI to any edge**](OPS%20|%20Deploy%20AI%20to%20any%20edge.md)
 
-[**OPS | Collect training, inference, and performance data**](OPS%20|%20Collect%20training,%20inference,%20and%20performance%20data.md)
+* ### [**OPS | Collect training, inference, and performance data**](OPS%20|%20Collect%20training,%20inference,%20and%20performance%20data.md)
 
-[**OPS | Monitor and manage large-scale devices**](OPS%20|%20Monitor%20and%20manage%20large-scale%20devices.md)
+* ### [**OPS | Monitor and manage large-scale devices**](OPS%20|%20Monitor%20and%20manage%20large-scale%20devices.md)
 
 ## Resources and reference
