@@ -11,10 +11,10 @@ When it comes to a production stage for edge AI solutions, the topic of continuo
 
 | Category  | Product | Key Benefits & Features |
 | ------------- | ------------- | ------------- |
-| ML SaaS | Edge Impulse | Easily customize your own state-of-the-art AI models for your **dedicated use case** that no ML expertise is required |
-| Dev. Pipeline | Azure DevOps | Complete or complementary services provision to automate development pipeline for packaging your AI application and cross-region development|
-| Deployment & Mgmt. | **DeviceOn** | Central mgmt. platform to remotely update AI applications (OTA), and monitor and control large-scale devices at ease |
-| AI Edge | **AIR-020** | Powered by NVIDIA Jetson series and featuring an ultra-compact and rugged design with 12 ~ 24V wide power input & -10 ~ 55 °C operating temperatures |
+| ML SaaS | [Edge Impulse](https://www.edgeimpulse.com/) | Easily customize your own state-of-the-art AI models for your **dedicated use case** that no ML expertise is required |
+| Dev. Pipeline | [Azure DevOps](https://azure.microsoft.com/en-us/products/devops/) | Complete or complementary services provision to automate development pipeline for packaging your AI application and cross-region development|
+| Deployment & Mgmt. | **[DeviceOn](https://campaign.advantech.online/en/DeviceOn/index.html#SolutionPackages)** | Central mgmt. platform to remotely update AI applications (OTA), and monitor and control large-scale devices at ease |
+| AI Edge | **[AIR-020](https://www.advantech.com/en/products/65f20c25-f6ef-4ab5-be3c-b7dfa7a833b3/air-020/mod_fcf216c8-3495-4809-b815-61dc008d53a4)** | Powered by NVIDIA Jetson series and featuring an ultra-compact and rugged design with 12 ~ 24V wide power input & -10 ~ 55 °C operating temperatures |
 
 >Use Case
 
@@ -38,4 +38,19 @@ In this use case of PCB production management, customers tried to find a way to 
 
 * ### [**OPS | Monitor and manage large-scale devices**](OPS%20|%20Monitor%20and%20manage%20large-scale%20devices.md)
 
-## Resources and reference
+## Reference Resources
+### App Upload and Deployment
+
+* [Wrap an App](https://youtu.be/5wRANEF-nxM?t=171)
+
+* [Select an app then deploy to devices](https://youtu.be/5wRANEF-nxM?t=15)
+
+* [Select a device then deploy an app](https://youtu.be/5wRANEF-nxM?t=36)
+
+### AI Model Deployment and Operation
+
+* [Create a container](https://youtu.be/bilP6FpyU0M?t=109)
+
+* [Container operation](https://youtu.be/bilP6FpyU0M?t=145)
+
+### [More about DeviceOn](https://campaign.advantech.online/en/DeviceOn/index.html#SolutionPackages)
