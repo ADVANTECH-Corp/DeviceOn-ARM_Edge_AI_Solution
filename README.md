@@ -39,7 +39,7 @@ In this use case of PCB production management, customers tried to find a way to 
 * ### [**OPS | Monitor and manage large-scale devices**](OPS%20|%20Monitor%20and%20manage%20large-scale%20devices.md)
 
 ## Reference Resources
-### App Upload and Deployment
+### App Uploading and Deployment
 
 * [Wrap an App](https://youtu.be/5wRANEF-nxM?t=171)
 
