@@ -20,9 +20,21 @@ When it comes to a production stage for edge AI solutions, the topic of continuo
 
 ![image](image/scenario.png)
 
-(待更新為水果品質檢測的描述)
-In the following, a use case for production line management will be introduced. It will demonstrate how Advantech supports customers to construct a production-stage edge AI solution with edge AI related products by Advantech. It didn’t end in POC and moreover aimed to create a continuously operational edge AI application.
-In this use case of PCB production management, customers tried to find a way to get notifications immediately for specific production issues. Therefore they would like to adopt a vision AI solution to improve management efficiency and reduce production loss. In the beginning, customers analyzed key factors of production capability monitoring. One is to make sure there is always a WIP of PCB in a production line to be manufactured. The other one is to know if an operator in the target workstation can operate correctly and produce normally. For operator recognition by a vision AI method in this scene, it’s easily be affected by different camera capture angles and different operator positions. To enhance recognition precision and reliability of operator existence in this practice, except for general person detection, it’s also necessary to detect a cap, gloves and tools worn or operated by an operator in each capture. To deal with such a complicated recognition problem, it always needs a compatible AI algorithm/model and powerful edge AI computing device. In the following sections, let’s find out how the above-mentioned Advantech edge AI products can be adopted to help construct an edge AI application into a production phase in which continuous maintenance is also considered.
+In this repoitory, a use case for a quality control system in fruit is used to demonstrate how Advantech supports customers to construct a production-stage edge AI solution with edge AI related products by Advantech. The design of quality control systems in food has become an essential element in research to ensure a state suitable for consumption. It is necessary to develop automatic and efficient systems that can verify their condition before distribution. As a result we tried adopt the following dataset with a deep learning-based algorithm from Edge Impulse for the identification of the fruits and the state in which they are.
+
+The dataset has 8 different fruits:
+  
+    -banana
+    -lemon
+    -lulo
+    -mango
+    -orange
+    -strawberry
+    -tamarillo
+    -tomato 
+<sub> *Source from: Pachon Suescun, Cesar Giovany; Pinzón Arenas, Javier Orlando; Jiménez-Moreno, Robinson (2020), “Spoiled and fresh fruit inspection dataset”, Mendeley Data, V1, doi: 10.17632/6ps7gtp2wg.1* </sub>
+ 
+Two thousand images of each one of the types of fruits are acquired for a total of 16000 samples. Half of them correspond to fresh fruits and the other half to non-fresh or spoiled fruits. For the acquisition of the dataset, changing of backgrounds, rotation of the fruits, distance of capture, and light variations were made, in order to make it robust. In the following sections, let’s find out how the above-mentioned Advantech edge AI products can be adopted to help construct an edge AI application into a production phase in which continuous maintenance is also considered. It won't end in POC and moreover aimed to create a continuously operational edge AI application.
 
 * ### [**ML | Label training data**](ML%20|%20Label%20training%20data.md)
 
