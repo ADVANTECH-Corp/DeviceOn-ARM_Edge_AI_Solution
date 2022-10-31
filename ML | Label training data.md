@@ -26,6 +26,8 @@ The dataset has `8` different fruits:
   <img width="600" src="image\Label_training_data_01.png">
 </p>
 
+
+
 ### Create the first new project
 
 * Click `+ Create new project`.
@@ -40,6 +42,8 @@ The dataset has `8` different fruits:
 <p align="center">
   <img width="600" src="image\Label_training_data_03.png">
 </p>
+
+
 
 ### Upload and tag data
 
@@ -64,6 +68,8 @@ The dataset has `8` different fruits:
 </p>
 
 * Upload all the eight categories of the four kinds of fruits in sequence, and add labeling.
+
+
 
 ### Check the quality of the data
 
