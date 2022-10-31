@@ -61,7 +61,7 @@ The dataset has `8` different fruits:
 
 * In `Upload exising data`, click `Select files` to select a fruit category (eg: F_Lemon).
 * Select `Automatically split between training and testing` in `Upload into category`, so that the uploaded data is automatically distributed between the training set and the test set in an 8:2 ratio.
-* Select `Enter label:` in `Label` and enter the code of the uploaded fruit category. The Lemon qualified data uploaded here is `F_Lemon`. Here, the author enters `PASS_Lemon` to indicate qualification. If it is `S_Lemon` data, it is the code name `NG_Lemon` `, which means unqualified.
+* Select `Enter label:` in `Label` and enter the code of the uploaded fruit category. The Lemon qualified data uploaded here is `F_Lemon`. Here, the author enters `PASS_Lemon` to indicate qualified. If it is `S_Lemon` data, it is the code name `NG_Lemon` `, which means unqualified.
 
 <p align="center">
   <img width="600" src="image\Label_training_data_06.png">
