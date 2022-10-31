@@ -1,6 +1,6 @@
 # Label training data
 
-When we used the developer free mode of Edge Impulse for the exercise of this project, because of the limitations of the developer free version, we used the `quality classification of four fruits` in the following "Spoiled and fresh fruit inspection dataset" for the exercise.
+When we used the developer free mode of Edge Impulse for the exercise of this project, because of the limitation of the developer free version, we used the `four kinds of fruit quality classification` sub-dataset in the following "Spoiled and fresh fruit inspection dataset" for the exercise. .
 
 The dataset has `8` different fruits:
 
