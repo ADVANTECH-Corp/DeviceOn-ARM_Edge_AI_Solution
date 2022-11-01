@@ -81,7 +81,7 @@ The dataset has `8` different fruits:
 
 * After checking the data, click `Data explorer`, where you can check the quality of the original data; we uploaded image data, so the default is `Using a pretrained visual model`.
 
-* In the `Dimensionality reduction technique`, we try it directly, the official description is the `t-SNE` with the best separation effect, and observe the difference of each fruit category.
+* `Dimensionality reduction technique`Here, we directly try to separate the best `t-SNE` to help us observe the differences of each fruit data category.
 * Click on `Generate data explorer` to analyze.
 
 <p align="center">
@@ -89,4 +89,11 @@ The dataset has `8` different fruits:
 </p>
 
 * While waiting for a cup of coffee, you can see the `Data explorer` to display the distribution status of each fruit data category with images. 
+
+<p align="center">
+  <img width="600" src="image\Label_training_data_09.png">
+</p>
+
 * It can be seen that the difference between different data categories in the image is quite obvious, so we can look optimistically, and the model to be trained later will not be too bad for the recognition accuracy of each fruit category.
+
+
