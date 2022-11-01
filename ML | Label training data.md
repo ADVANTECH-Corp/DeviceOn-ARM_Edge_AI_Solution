@@ -53,7 +53,7 @@ The dataset has `8` different fruits:
   <img width="600" src="image\Label_training_data_04.png">
 </p>
 
-* In `LET'S COLLECT SOME DATA`,select`Upload data` to upload the fruit data in this machine.
+* select `Upload data` to upload the fruit data on the local machine.
 
 <p align="center">
   <img width="600" src="image\Label_training_data_05.png">
