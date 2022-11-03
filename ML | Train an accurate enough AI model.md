@@ -179,8 +179,8 @@ It is the model architecture and parameter settings of the `Transfer Learning (I
   <img width="600" src="image\Training_AI_model_19.png">
 </p>
 
-* 完成新模型的訓練，如同EON tuner先前計算過的accuracy分數，float32模型的`ACCURACY`分數得到99.4%。
-* Complete the training of the new model, the `ACCURACY` score of the float32 model is 99.4% as the accuracy score previously calculated by the EON tuner.
+* 完成新模型的訓練，如同EON tuner先前計算過的accuracy分數，float32模型的`ACCURACY`分數得到99.8%。
+* Complete the training of the new model, the `ACCURACY` score of the float32 model is 99.8% as the accuracy score previously calculated by the EON tuner.
 
 * 至此，我們已經完成了AI模型的訓練，往佈署到硬體上的流程，又前進了一步。
 * At this point, we have completed the training of the AI ​​model, and we have taken another step forward in the process of deploying it to the hardware.
