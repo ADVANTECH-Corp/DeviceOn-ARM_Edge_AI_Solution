@@ -182,12 +182,22 @@ It is the model architecture and parameter settings of the `Transfer Learning (I
 * 完成新模型的訓練，如同EON tuner先前計算過的accuracy分數，float32模型的`ACCURACY`分數得到99.8%。
 * Complete the training of the new model, the `ACCURACY` score of the float32 model is 99.8% as the accuracy score previously calculated by the EON tuner.
 
-* 至此，我們已經完成了AI模型的訓練，往佈署到硬體上的流程，又前進了一步。
-* At this point, we have completed the training of the AI ​​model, and we have taken another step forward in the process of deploying it to the hardware.
-
 <p align="center">
   <img width="600" src="image\Training_AI_model_20.png">
 </p>
+
+
+* int8模型的`ACCURACY`分數得到99.5%，比EON tuner先前計算過的`ACCURACY`分數還高了0.1%。
+* The `ACCURACY` score of the int8 model is 99.5%, which is 0.1% higher than the `ACCURACY` score previously calculated by EON tuner.
+
+<p align="center">
+  <img width="600" src="image\Training_AI_model_20_1.png">
+</p>
+
+
+* 至此，我們已經完成了AI模型的訓練，往佈署到硬體上的流程，又前進了一步。
+* At this point, we have completed the training of the AI ​​model, and we have taken another step forward in the process of deploying it to the hardware.
+
 
 ### 開發人員免費版本，模型訓練時間20分鐘的限制
 ### Developer free version, model training time limit of 20 minutes
