@@ -152,8 +152,8 @@ It is the model architecture and parameter settings of the `Transfer Learning (I
 * 回到`impulse deign`下的子項目`Transfer Learning`，模型架構與參數已被我們選擇的訓練模型架構與參數更新。
 * Going back to the sub-project `Transfer Learning` under `impulse deign`, the model architecture and parameters have been updated by our chosen training model architecture and parameters.
 
-* 右下會有EON tuner先前計算過的模型accuracy分數，可以看到`Quantized (int8)`的`ACCURACY`分數為99.4%，遠大於系統預設模型架構與參數所訓練int8模型的分數。
-* There will be the model accuracy score previously calculated by EON tuner in the lower right. You can see that the `ACCURACY` score of `Quantized (int8)` is 99.4%, which is much higher than the score of the int8 model trained by the system preset model architecture and parameters.
+* 右下會有EON tuner先前計算過的模型accuracy分數，可以看到`Quantized (int8)`的`ACCURACY`分數為99.3%，遠大於系統預設模型架構與參數所訓練int8模型的分數。
+* There will be the model accuracy score previously calculated by EON tuner in the lower right. You can see that the `ACCURACY` score of `Quantized (int8)` is 99.3%, which is much higher than the score of the int8 model trained by the system preset model architecture and parameters.
 
 <p align="center">
   <img width="600" src="image\Training_AI_model_17.png">
