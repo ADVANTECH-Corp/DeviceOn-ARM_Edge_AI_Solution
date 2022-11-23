@@ -22,7 +22,7 @@ When it comes to a production stage for edge AI solutions, the topic of continuo
 
 In this repoitory, a use case for a quality control system in fruit is used to demonstrate how Advantech supports customers to construct a production-stage edge AI solution with edge AI related products by Advantech. The design of quality control systems in food has become an essential element in research to ensure a state suitable for consumption. It is necessary to develop automatic and efficient systems that can verify their condition before distribution. As a result we tried adopt the following dataset with a deep learning-based algorithm from Edge Impulse for the identification of the fruits and the state in which they are.
 
-The dataset has 8 different fruits:
+The whole dataset has 8 different fruits:
   
     -banana
     -lemon
