@@ -11,7 +11,7 @@ When it comes to a production stage for edge AI solutions, the topic of continuo
 
 | Category  | Product | Key Benefits & Features |
 | ------------- | ------------- | ------------- |
-| ML SaaS | [Edge Impulse](https://www.edgeimpulse.com/) | Easily customize your own state-of-the-art AI models for your **dedicated use case** that no ML expertise is required |
+| ML SaaS | **[Edge Impulse](https://www.edgeimpulse.com/)** | Easily customize your own state-of-the-art AI models for your **dedicated use case** that no ML expertise is required |
 | Dev. Pipeline | [Azure DevOps](https://azure.microsoft.com/en-us/products/devops/) | Complete or complementary services provision to automate development pipeline for packaging your AI application and cross-region development|
 | Deployment & Mgmt. | **[DeviceOn](https://campaign.advantech.online/en/DeviceOn/index.html#SolutionPackages)** | Central mgmt. platform to remotely update AI applications (OTA), and monitor and control large-scale devices at ease |
 | AI Edge | **[AIR-020](https://www.advantech.com/en/products/65f20c25-f6ef-4ab5-be3c-b7dfa7a833b3/air-020/mod_fcf216c8-3495-4809-b815-61dc008d53a4)** | Powered by NVIDIA Jetson series and featuring an ultra-compact and rugged design with 12 ~ 24V wide power input & -10 ~ 55 °C operating temperatures |
