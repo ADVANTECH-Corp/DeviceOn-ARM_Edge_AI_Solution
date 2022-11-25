@@ -55,7 +55,7 @@ In the following sections, let’s find out how the above-mentioned Advantech ed
 ## Reference Resources
 ### App Uploading and Deployment
 
-* [Wrap an App](https://youtu.be/5wRANEF-nxM?t=171)
+* [Wrap an app](https://youtu.be/5wRANEF-nxM?t=171)
 
 * [Select an app then deploy to devices](https://youtu.be/5wRANEF-nxM?t=15)
 
