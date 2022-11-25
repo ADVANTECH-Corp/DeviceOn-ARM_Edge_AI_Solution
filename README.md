@@ -70,6 +70,6 @@ In the following sections, let’s find out how the above-mentioned Advantech ed
 
 * [Create a container](https://youtu.be/bilP6FpyU0M?t=109)
 
-* [Container operation](https://youtu.be/bilP6FpyU0M?t=145)
+* [Container management](https://youtu.be/bilP6FpyU0M?t=145)
 
 ### [More about DeviceOn](https://campaign.advantech.online/en/DeviceOn/index.html#SolutionPackages)
