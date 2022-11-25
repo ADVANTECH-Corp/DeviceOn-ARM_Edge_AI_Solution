@@ -53,6 +53,11 @@ In the following sections, let’s find out how the above-mentioned Advantech ed
 * #### [**OPS | Monitor and manage large-scale devices**](OPS%20|%20Monitor%20and%20manage%20large-scale%20devices.md)
 
 ## Reference Resources
+### Sample Data for Training and Inference
+
+* [Images for labeling and training]([https://advantecho365-my.sharepoint.com/:u:/g/personal/gary70_lin_advantech_com/Eap595EF6FJDplH1unr1bY8B-cv_BlD1m0fZ2k_96hPXfw?e=Z4GVbj](https://data.mendeley.com/datasets/6ps7gtp2wg/1))
+
+
 ### App Uploading and Deployment
 
 * [Wrap an app](https://youtu.be/5wRANEF-nxM?t=171)
