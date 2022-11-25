@@ -55,7 +55,7 @@ In the following sections, let’s find out how the above-mentioned Advantech ed
 ## Reference Resources
 ### Sample Data for Training and Inference
 
-* [Images for labeling and training]([https://advantecho365-my.sharepoint.com/:u:/g/personal/gary70_lin_advantech_com/Eap595EF6FJDplH1unr1bY8B-cv_BlD1m0fZ2k_96hPXfw?e=Z4GVbj](https://data.mendeley.com/datasets/6ps7gtp2wg/1))
+* [Images for labeling and training](https://data.mendeley.com/datasets/6ps7gtp2wg/1)
 
 
 ### App Uploading and Deployment
