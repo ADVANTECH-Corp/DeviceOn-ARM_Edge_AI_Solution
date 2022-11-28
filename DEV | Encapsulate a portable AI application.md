@@ -29,7 +29,7 @@ wget -q -O - https://cdn.edgeimpulse.com/firmware/linux/jetson.sh | bash
 * 將反白選擇的Key複製到記事本備用。
 * Copy the highlighted key to Notepad for backup.
 * Keys可以讓我們的線下硬體直接連接專案，可以略過輸入帳號密碼的程序，請好好保管。
-*Keys can let our offline hardware directly connect to the project, you can skip the process of entering the account password, please keep it well.
+* Keys can let our offline hardware directly connect to the project, you can skip the process of entering the account password, please keep it well.
 
 <p align="center">
   <img width="600" src="image\Encapsulate_a_portable_AI_application_02.png">
