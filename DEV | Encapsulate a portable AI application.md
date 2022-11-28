@@ -1,6 +1,7 @@
 # Encapsulate a portable AI application
 
 在我們完成了Edge Impulse平台上的模型訓練後，我們接下來可以將專案連結到DeviceOn，並透過DeviceOn遠端通知AIR-020(AI Edge)，來進行推理或者更新模型。
+
 After we have completed the model training on the Edge Impulse platform, we can then connect the project to DeviceOn and notify AIR-020 (AI Edge) remotely through DeviceOn to perform inference or update the model.
 
 ## AIR-020安裝Edge Impulse Linux SDK
@@ -96,4 +97,5 @@ systemctl start EI_demo
 * The third script: `Deploy.sh`, the main setting is to use `DeviceOn` to deploy to `AIR-020`, it can automatically download and update the model; and can call `EI_stop_DL_run.sh` and `EI_demo.service` two scripts.
 
 以上就完成自動化腳本的撰寫，可以自行嘗試在`AIR-020`的同一個目錄下，本機執行腳本進行測試；另外在後面的章節，也會提到腳本如何透過`DeviceOn`遠端佈署到`AIR-020`。
+
 The above completes the writing of the automated script. You can try to execute the script locally in the same directory of `AIR-020` for testing; in addition, in the following chapters, it will also be mentioned how to deploy the script remotely through `DeviceOn` to `AIR-020`.
