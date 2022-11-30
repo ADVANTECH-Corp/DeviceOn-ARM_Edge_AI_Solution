@@ -48,7 +48,7 @@ In the following sections, let’s find out how the above-mentioned Advantech ed
 
 * #### [**OPS | Deploy AI to any edge**](OPS%20|%20Deploy%20AI%20to%20any%20edge.md)
 
-* #### [**OPS | Collect training, inference, and performance data**](OPS%20|%20Collect%20training,%20inference,%20and%20performance%20data.md)
+* #### [**OPS | Collect data for re-training**](OPS%20|%20Collect%20training,%20inference,%20and%20performance%20data.md)
 
 ## Reference Resources
 ### Sample Data for Training and Inference
