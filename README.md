@@ -36,7 +36,7 @@ The whole dataset has 8 different fruits:
  
 Two thousand images of each one of the types of fruits are acquired for a total of 16000 samples. Half of them correspond to fresh fruits and the other half to non-fresh or spoiled fruits. For the acquisition of the dataset, changing of backgrounds, rotation of the fruits, distance of capture, and light variations were made, in order to make it robust. 
 
-In the following sections, let’s find out how the above-mentioned Advantech edge AI products can be adopted to help construct an edge AI application into a production phase in which continuous maintenance is also considered. It won't end in POC and moreover aimed to create a continuously operational edge AI application.
+> ### **Step-by-step details are presented in the following sections**
 
 * #### [**ML | Label training data**](LabelTrainingData.md)
 
