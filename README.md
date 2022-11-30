@@ -38,17 +38,17 @@ Two thousand images of each one of the types of fruits are acquired for a total 
 
 In the following sections, let’s find out how the above-mentioned Advantech edge AI products can be adopted to help construct an edge AI application into a production phase in which continuous maintenance is also considered. It won't end in POC and moreover aimed to create a continuously operational edge AI application.
 
-* #### [**ML | Label training data**](ML%20|%20Label%20training%20data.md)
+* #### [**ML | Label training data**](LabelTrainingData.md)
 
-* #### [**ML | Train an accurate enough AI model**](ML%20|%20Train%20an%20accurate%20enough%20AI%20model.md)
+* #### [**ML | Train an accurate enough AI model**](TrainAnAccurateEnoughAIModel.md)
 
-* #### [**DEV | Encapsulate a portable AI application**](DEV%20|%20Encapsulate%20a%20portable%20AI%20application.md)
+* #### [**DEV | Encapsulate a portable AI application**](EncapsulateAPortableAIApplication.md)
 
-* #### [**DEV | Automate AI lifecycle**](DEV%20|%20Automate%20AI%20lifecycle.md)
+* #### [**DEV | Automate AI lifecycle**](AutomateAILifecycle.md)
 
-* #### [**OPS | Deploy AI to any edge**](OPS%20|%20Deploy%20AI%20to%20any%20edge.md)
+* #### [**OPS | Deploy AI to any edge**](DeployAIToAnyEdge.md)
 
-* #### [**OPS | Collect data for re-training**](OPS%20|%20Collect%20training,%20inference,%20and%20performance%20data.md)
+* #### [**OPS | Collect data for re-training**](CollectDataForRe-training.md)
 
 ## Reference Resources
 ### Sample Data for Training and Inference
