@@ -7,7 +7,7 @@ A typical Machine Vision solution pipeline consists of data ingestion, data prep
 
 ![image](image/project_architecture.png)
 
-When it comes to a production stage for edge AI solutions, the topic of continuous maintenance includes lots of extra tasks to be considered and dealt with. For example, it’s necessary to re-train an AI model owing to precision bias or target objects changed. The frequency of AI application installation and update increases to a great degree. The remote capability to manage massive and unattended edge AI devices is required. Edge AI devices are rugged enough to operate normally and continuously in terrible environments, and so on. To help deal with such problems, Advantech provides customers with Azure Custom Vision, Azure DevOps, DeviceOn and AIR-020 with NVIDIA Jetson. With the aids of these products and services, it can help construct a complete Edge AI solution and accelerate realization of solution landing or production stage migration.
+When it comes to a production stage for edge AI solutions, users have to deal with many tasks associated with continuous integration and delivery (CI/CD). It’s necessary to retrain an AI model owing to precision bias or target objects changed with frequent application updates.. The capability to remotely manage large number of devices - supervised or unattended - is required. IoT devices have to be ruggedized to function normally in all kinds of different environment conditions. That’s why Advantech provides customers with Azure Custom Vision, Azure DevOps, DeviceOn and AIR-020 with NVIDIA Jetson, as a well-validated Edge AI solution set. Any AI or IoT builder can reference this best practice as the base to customize for its own domain solution, using all or part of this Advantech-recommended solution set.
 
 | Category  | Product | Key Benefits & Features |
 | ------------- | ------------- | ------------- |
@@ -20,7 +20,7 @@ When it comes to a production stage for edge AI solutions, the topic of continuo
 
 ![image](image/scenario.png)
 
-In this repoitory, a use case for a quality control system in fruit is used to demonstrate how Advantech supports customers to construct a production-stage edge AI solution with edge AI related products by Advantech. The design of quality control systems in food has become an essential element in research to ensure a state suitable for consumption. It is necessary to develop automatic and efficient systems that can verify their condition before distribution. As a result we tried adopt the following dataset with a deep learning-based algorithm from Edge Impulse for the identification of the fruits and the state in which they are.
+In this repository, a fruit inspection use case is implemented to demonstrate how Advantech supports customers to deliver a production-stage edge AI solution. we use the following dataset with a deep learning-based algorithm from Edge Impulse to identify different fruit and associated quality.
 
 The whole dataset has 8 different fruits:
   
@@ -40,15 +40,17 @@ Two thousand images of each one of the types of fruits are acquired for a total 
 
 * #### [**ML | Label training data**](LabelTrainingData.md)
 
-* #### [**ML | Train an accurate enough AI model**](TrainAnAccurateEnoughAIModel.md)
+* #### [**ML | Train an AI model**](TrainAnAccurateEnoughAIModel.md)
 
-* #### [**DEV | Encapsulate a portable AI application**](EncapsulateAPortableAIApplication.md)
+* #### [**DEV | Wrap an app around the model**](EncapsulateAPortableAIApplication.md)
 
-* #### [**DEV | Automate AI lifecycle**](AutomateAILifecycle.md)
+* #### **DEV | Automate AI app wrapping** <sub>*(To be published soon, email wowaiot.wseg@advantech.com to get notified)*</sub> 
 
-* #### [**OPS | Deploy AI to any edge**](DeployAIToAnyEdge.md)
+* #### [**OPS | Deploy the AI app to edge devices**](DeployAIToAnyEdge.md)
 
-* #### [**OPS | Collect data for re-training**](CollectDataForRe-training.md)
+* #### [**OPS | Collect data for model retraining**](CollectDataForRe-training.md)
+
+* #### **OPS | Collect data for analytics** <sub>*(To be published soon, email wowaiot.wseg@advantech.com to get notified)*</sub> 
 
 ## Reference Resources
 ### Sample Data for Training and Inference
