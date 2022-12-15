@@ -1,0 +1,12 @@
+[Unit]
+Description=EI_demo
+
+[Service]
+Environment=DISPLAY=:0
+Environment="XAUTHORITY=/path/to/xauthority"
+Type=simple
+ExecStart=/opt/EI_run.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

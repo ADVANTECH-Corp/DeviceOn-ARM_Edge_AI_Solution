@@ -1,0 +1,58 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger: none
+
+pool:
+  vmImage: ubuntu-18.04
+
+steps:
+- script: |
+    sudo apt-get install -qq -y jq
+    key=`echo -n "${DEVICEON_USER}:$(DEVICEON_PW)" | base64 -w 0`
+
+    curl --location --request GET --header "Authorization: Basic ${key}" "http://${DEVICEON_URL}/rmm/storagemanager/storages?searchKey=${APP_REPO_NAME}" >> curlOutput.txt
+    stgId=`cat curlOutput.txt | jq '.e | .[] | .id'`
+    rm curlOutput.txt
+
+    echo "${DEVICEON_URL}, ${DEVICEON_USER}, ${APP_REPO_NAME}, ${stgId}, ${key}"
+
+    echo "##vso[task.setvariable variable=key;]${key}"
+    echo "##vso[task.setvariable variable=stgId;]${stgId}"
+  displayName: 'Init environment'
+  
+- script: |
+    tar -Jxf OTAPackage.tar.xz
+    cd OTAPackage
+    ./otapackager-cli-x86_64 -n "${APP_NAME}" -v "${APP_VERSION}" -i "../script/" -b "Deploy.sh"  -d "../" -g "arm,jetson,nvidia,risc,ubuntu"
+    cd ..
+  displayName: 'Run otapackger'
+  
+- script: |
+    path=`pwd`
+    name=`ls ${APP_NAME}*.*`
+    echo "upldoad ${name} to ${DEVICEON_URL}, repository id: $(stgId)"
+
+    curl --location --request POST \
+    --header 'Authorization: Basic $(key)' \
+    --form "stgId=\"$(stgId)\"" \
+    --form "files=@\"${path}/${name}\"" \
+    --output curlOutput.txt \
+    --stderr curlOutputErr.txt \
+    "http://${DEVICEON_URL}/rmm/packagecontrol/package"
+    cat curlOutput.txt
+  displayName: 'Upload package'
+  
+- script: |
+    cat curlOutput.txt
+    errCode=`cat curlOutput.txt | jq -r '.[] | .errorCode'`
+    if [ "${errCode}" != "SUCCESS" ]
+    then
+      echo "##vso[task.logissue type=error;]${errCode}"
+      echo "##vso[task.complete result=Failed;]${errCode}"
+      exit 1
+    fi
+  displayName: 'Validate upload result'
+
