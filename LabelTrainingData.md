@@ -14,8 +14,8 @@ When we have a free trial account of Edge Impulse to conduct the exercise of thi
 The used dataset totally includes `4` classes of fruit with Pass and NG status:
 
     -Banana 
-    - F_Banan (Pass)
-    - S_Banan (NG)
+    - F_Banana (Pass)
+    - S_Banana (NG)
     -Lemon
     - F_Lemon (Pass)
     - S_Lemon (NG)
@@ -27,6 +27,8 @@ The used dataset totally includes `4` classes of fruit with Pass and NG status:
     - S_Mango (NG)	
 
 <sub> *Source from: Pachon Suescun, Cesar Giovany; Pinzón Arenas, Javier Orlando; Jiménez-Moreno, Robinson (2020), “Spoiled and fresh fruit inspection dataset”, Mendeley Data, V1, doi: 10.17632/6ps7gtp2wg.1* </sub>
+
+[Download](https://data.mendeley.com/datasets/6ps7gtp2wg/1)
 
 ## Create the first new project
 
