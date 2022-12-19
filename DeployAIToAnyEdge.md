@@ -11,6 +11,10 @@ In this repo, we used DeviceOn to simplify and accelerate the whole pipeline of 
 
 #### 1. Install WISE-Agent in your AI device
 * Install [WISE-Agent](https://eiot.blob.core.windows.net/deviceon/WISE-Agent.zip) with the file of `wise-agent-Ubuntu_18.04-jetson-1.4.45.0.run` (or later) therein for Unbuntu 18.04 that we implemented in this repo.
+* 
+```sh
+sudo wise-agent-Ubuntu_18.04-jetson-1.4.45.0.run
+```
 
 <p align="center">
   <img width="600" src="image\Deploy_AI_to_any_edge_01.png">
