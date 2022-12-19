@@ -89,7 +89,7 @@ After filling necessary information, the device is connected to DeviceOn server 
   <img width="600" src="image\Deploy_AI_to_any_edge_13.png">
 </p>
 
-* Upload the three Script script files taught in the Encapsulate a portable AI application chapter (only these three files can be stored in the directory).
+* Upload the directory where the three Script script files written in the Encapsulate a portable AI application chapter are located (only these three files can be stored in the directory).
 
 <p align="center">
   <img width="600" src="image\Deploy_AI_to_any_edge_14.png">
