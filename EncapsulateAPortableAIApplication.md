@@ -70,5 +70,6 @@ systemctl daemon-reload
 systemctl enable EI_demo
 systemctl start EI_demo
 ```
-
+> Replace `<API Key>` with the `API Key` of the Edge Impulse project mentioned above.
+> 
 It's workable for you to execute the scripts locally in the same directory on `AIR-020`. In addition, in the following sections, it will introduce how to remotely deploy the scripts to `AIR-020` through `DeviceOn`.
