@@ -12,10 +12,6 @@ In this repo, we used DeviceOn to simplify and accelerate the whole pipeline of 
 #### 1. Install WISE-Agent in your AI device
 * Install [WISE-Agent](https://eiot.blob.core.windows.net/deviceon/WISE-Agent.zip) with the file of `wise-agent-Ubuntu_18.04-jetson-1.4.45.0.run` (or later) therein for Unbuntu 18.04 that we implemented in this repo.
 
-```sh
-sudo wise-agent-Ubuntu_18.04-jetson-1.4.45.0.run
-```
-
 <p align="center">
   <img width="600" src="image\Deploy_AI_to_any_edge_01.png">
 </p>
@@ -72,6 +68,7 @@ After filling necessary information, the device is connected to DeviceOn server 
 </p>
 
 * In the `App Information` page, fill in necessary info such as `App Name`, and then press `Next`.
+> Name the App Name as edge-impulse-linux, and add a number after it, for example: edge-impulse-linux1 or edge-impulse-linux2 or edge-impulse-linux3... (the same DeviceOn Server, the App Name cannot be repeated!).
 
 <p align="center">
   <img width="600" src="image\Deploy_AI_to_any_edge_11.png">
@@ -89,7 +86,8 @@ After filling necessary information, the device is connected to DeviceOn server 
   <img width="600" src="image\Deploy_AI_to_any_edge_13.png">
 </p>
 
-* Upload the directory where the three Script script files written in the Encapsulate a portable AI application chapter are located (only these three files can be stored in the directory).
+* Choose the directory where the three script files mentioned in [DEV | Wrap an app around the model](EncapsulateAPortableAIApplication.md) are located.
+> NOTE: Before uploading, remember to replace the `<API Key>` in EI_run.sh and Deploy.sh with your own API Key.
 
 <p align="center">
   <img width="600" src="image\Deploy_AI_to_any_edge_14.png">
@@ -134,7 +132,7 @@ After filling necessary information, the device is connected to DeviceOn server 
   <img width="600" src="image\Deploy_AI_to_any_edge_20.png">
 </p>
 
-* A `Information` dialog will pop up to inform successful deployment.
+* An `Information` dialog will pop up to inform successful deployment.
 
 <p align="center">
   <img width="600" src="image\Deploy_AI_to_any_edge_21.png">

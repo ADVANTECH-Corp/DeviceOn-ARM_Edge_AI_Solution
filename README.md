@@ -44,7 +44,7 @@ Two thousand images of each one of the types of fruits are acquired for a total 
 
 * #### [**DEV | Wrap an app around the model**](EncapsulateAPortableAIApplication.md)
 
-* #### **DEV | Automate AI app wrapping** <sub>*(To be published soon, email wowaiot.wseg@advantech.com to get notified)*</sub> 
+* #### [**DEV | Automate AI app wrapping**](AutomateAILifecycle.md)
 
 * #### [**OPS | Deploy the AI app to edge devices**](DeployAIToAnyEdge.md)
 

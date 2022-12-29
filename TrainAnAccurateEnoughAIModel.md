@@ -12,7 +12,7 @@ After labeling the necessary data, we can start to proceed model training. Edge 
   <img width="600" src="image\Training_AI_model_01.png">
 </p>
 
-* With `Add a porcessing block`, we can further choose a `Image` or `Raw Data` bock. Here we choosed the recommended `Image` block and then click `Add`.
+* With `Add a porcessing block`, we can further choose `Image` or `Raw Data` block . Here we choosed the recommended `Image` block and then click `Add`.
 
 <p align="center">
   <img width="600" src="image\Training_AI_model_02.png">
@@ -59,7 +59,8 @@ After labeling the necessary data, we can start to proceed model training. Edge 
 </p>
 
 * After starting a training process, its progress and related information will be printed in the right-upper frame.
-> Please NOTE that currently **training time is limited to 20 miniutes for a trial account**. If an estimated training time exceeds the limiation, the training process won't start or will be withdrawn.
+> Please NOTE that currently training time is limited to 20 miniutes and no `Data augmentation` option is available for a trial account. 
+> If the estimated training time exceeds the limit, the training process will not start or will be withdrawn.
 
 <p align="center">
   <img width="600" src="image\Training_AI_model_09.png">
@@ -68,6 +69,7 @@ After labeling the necessary data, we can start to proceed model training. Edge 
 * After model training is completed, detailed training model info can be found at the right bottom. Here we can found a `model version`, an `ACCURACY` score and etc.
   - Model version: Quantized (int8)
   - ACCURACY: 61.7%.
+> Please NOTE that since random seeds may change for each time that an AI project is created, training results mentioned below may be slightly different.
 
 <p align="center">
   <img width="600" src="image\Training_AI_model_10.png">
@@ -148,9 +150,8 @@ After labeling the necessary data, we can start to proceed model training. Edge 
 
 * To this stage, AI model training through Edge Impulse was completed.
 
-## (Reminder for a free trial account) Limited 20 minutes for model training
-* A problem could occur that `Estimated training time is larger than compute time limit` when adopting a EON tuner selection for optimization.
-* Such information indicates that we need to go back to EON tuner page to choose another configuration for model training. In general, for decreasing training time, it's necessary to select a quantized model or a lower accuracy score.
+## (Reminder for a free trial account) EON tuner time limit
+* When using `EON tuner` to select an optimization trained model, you may see red marks on some blocks. It means that their training time exceed the limit of a free trial account so they are bypassed.
 
 <p align="center">
   <img width="600" src="image\Training_AI_model_21.png">

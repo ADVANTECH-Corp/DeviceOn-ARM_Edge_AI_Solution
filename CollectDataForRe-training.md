@@ -57,6 +57,31 @@ edge-impulse-uploader --api-key <API Keys> --label NG_Orange /<path>/S_Orange/*.
 
 ## Browse batch uploaded training data with Edge Impulse studio
 * After uploading all required data, click `Data acquisition` in the left menu.
+
+* Because of new data uploaded, please REMEMBER to click the red exclamation mark to rebalance your data pool.
+
+<p align="center">
+  <img width="600" src="image\Collect_data_for_model_retraining_10.png">
+</p>
+
+* Click `Yes, perform the train/test` in default.
+
+<p align="center">
+  <img width="600" src="image\Collect_data_for_model_retraining_11.png">
+</p>
+
+* Follow the indication to confirm the data operation. 
+
+<p align="center">
+  <img width="600" src="image\Collect_data_for_model_retraining_12.png">
+</p>
+
+* Then we can see the data rebalancing progress. 
+
+<p align="center">
+  <img width="600" src="image\Collect_data_for_model_retraining_13.png">
+</p>
+
 * In `Training data` and `Test data`, check whether all `SAMPLE NAME` and `LABEL` information are correct.
 
 <p align="center">
@@ -68,3 +93,5 @@ edge-impulse-uploader --api-key <API Keys> --label NG_Orange /<path>/S_Orange/*.
 </p>
 
 With the aids of Edge Impulse CLI, we can easily upload new training data for further retraining an existed AI project/model in Edge Impulse.  
+
+And don't forget this. Need to retrain a new model able to recognize the new data and then re-encapsulate the app package. Finally re-deploy the package to the edge device(s) over DeviceOn easily. 
