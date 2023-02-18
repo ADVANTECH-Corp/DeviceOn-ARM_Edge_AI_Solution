@@ -6,11 +6,70 @@ Through the IoT device platform called `DeviceOn` to provide OTA deployment to h
 - [A 90-day trial key](https://www.youtube.com/watch?v=tjZUchu0v2I&t=64s) for DeviceOn server activation.
 - AIR-020 with Linux [Ubuntu 18.04](https://campaign.advantech.online/en/embedded_software/index.html)/[JetPack 4.5.1(or later)](http://ess-wiki.advantech.com.tw/view/IoTGateway/BSP/Linux/OS_Support_List_Jetpack_4.5.1_L4T_R32.5.1) ready.
 
+## Install Edge Impulse Linux Python SDK in AIR-020
+
+* Install necessary Python packages with the following commands.
+
+```sh
+sudo apt install python3-pip
+
+sudo apt install python3-testresources
+
+sudo apt-get install python3-pyaudio
+```
+
+> NOTE: Please remember to use *Root* privileges by this command.
+
+```sh
+sudo su
+```
+
+* Download a verified Linux Python SDK package from this Github post.
+
+```sh
+cd /opt
+git clone https://github.com/hsulin0806/linux-sdk-python_20230103.git
+```
+
+* Modify the directory name of the downloaded Linux Python SDK.
+
+```sh
+mv linux-sdk-python_20230103 linux-sdk-python
+```
+
+* It's recommanded to set up and use a Python virtual environment to avoid messing up the orginal operation system settings.
+
+```sh
+python3 -m venv --system-site-packages EI_DEMO
+
+source ./EI_DEMO/bin/activate
+```
+
+* Then install other required packages.
+
+```sh
+pip3 install --upgrade pip
+
+pip3 install scikit-build
+
+pip3 install protobuf==3.3.0
+
+python3 -m pip install edge_impulse_linux==1.0.7
+
+python3 -m pip install numpy==1.19.4
+```
+
+* The above completes the runtime installation required by the introduced DEMO application to run on AIR-020.
+
+<p align="center">
+  <img width="600" src="image\Deploy_AI_to_any_edge_00.png">
+</p>
+
 ## Connect AIR-020 to DeviceOn server
 In this repo, we used DeviceOn to simplify and accelerate the whole pipeline of edge AI development and deployment.
 
 #### 1. Install WISE-Agent in your AI device
-* Install [WISE-Agent](https://eiot.blob.core.windows.net/deviceon/WISE-Agent.zip) with the file of `wise-agent-Ubuntu_18.04-jetson-1.4.45.0.run` (or later) therein for Unbuntu 18.04 that we implemented in this repo.
+* Install [WISE-Agent](https://eiot.blob.core.windows.net/deviceon/WISE-Agent.zip) with the file of `wise-agent-Ubuntu_18.04-jetson-1.4.49.0.run` (or later) therein for Unbuntu 18.04 that we implemented in this repo.
 
 <p align="center">
   <img width="600" src="image\Deploy_AI_to_any_edge_01.png">

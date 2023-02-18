@@ -9,4 +9,10 @@ exec 4<> ~/EI_ABC.fifo
 wait
 
 cp /home/modelfile_0456.eim ~/my_model.eim
-edge-impulse-linux-runner --api-key <API Key>  --model-file ~/my_model.eim 2>&1 | tee >&4
+
+source /opt/EI_DEMO/bin/activate
+
+#python3 /opt/linux-sdk-python/examples/image/classify.py ~/my_model.eim 2>&1 | tee >&4
+python3 /opt/linux-sdk-python/examples/image/classify.py ~/my_model.eim 
+
+

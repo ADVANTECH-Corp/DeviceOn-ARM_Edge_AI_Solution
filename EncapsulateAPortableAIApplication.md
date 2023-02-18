@@ -35,7 +35,8 @@ chmod 666 ~/EI_ABC.fifo
 exec 4<> ~/EI_ABC.fifo
 wait
 cp /home/modelfile_0456.eim ~/my_model.eim
-edge-impulse-linux-runner --api-key <API Key> --verbose --model-file ~/my_model.eim 2>&1 | tee >&4
+source /opt/EI_DEMO/bin/activate
+python3 /opt/linux-sdk-python/examples/image/classify.py ~/my_model.eim 
 ```  
 > Replace `<API Key>` with the `API Key` of the Edge Impulse project mentioned above.
 
@@ -44,13 +45,19 @@ edge-impulse-linux-runner --api-key <API Key> --verbose --model-file ~/my_model.
 ```sh
 [Unit]
 Description=EI_demo
+After=graphical-session.target multi-user.target website.service
 
 [Service]
 Environment=DISPLAY=:0
-Environment="XAUTHORITY=/path/to/xauthority"
+Environment=XAUTHORITY=/run/user/1000/gdm/Xauthority
+#Environment=XAUTHORITY=/root/.Xauthority
 Type=simple
+ExecStartPre=-/bin/sleep 20
 ExecStart=/opt/EI_run.sh
 Restart=always
+#RestartSec=20s
+Timeout=infinity
+#WorkingDirectory=/home/a
 
 [Install]
 WantedBy=multi-user.target
@@ -59,11 +66,10 @@ WantedBy=multi-user.target
 * The third(/last) script is `Deploy.sh` which mainly describes the overall pipeline for edge app deployment. Here it starts with downloading and updating the AI model, and then executes two scripts of `EI_run.sh` and `EI_demo.service` to complete the pipeline.
   
 ```sh
-#!/bin/bash
 systemctl stop EI_demo
 edge-impulse-linux-runner --api-key <API Key> --download /home/modelfile_0456.eim 
 cp -f ./EI_demo.service /etc/systemd/system/
-cp -f ./EI_stop_run.sh /opt/
+cp -f ./EI_run.sh /opt/
 chmod 644 /etc/systemd/system/EI_demo.service
 chmod 777 /opt/EI_run.sh
 systemctl daemon-reload

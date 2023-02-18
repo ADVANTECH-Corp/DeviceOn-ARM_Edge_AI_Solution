@@ -1,12 +1,19 @@
 [Unit]
 Description=EI_demo
+After=graphical-session.target multi-user.target website.service
 
 [Service]
 Environment=DISPLAY=:0
-Environment="XAUTHORITY=/path/to/xauthority"
+Environment=XAUTHORITY=/run/user/1000/gdm/Xauthority
+#Environment=XAUTHORITY=/root/.Xauthority
 Type=simple
+ExecStartPre=-/bin/sleep 20
 ExecStart=/opt/EI_run.sh
 Restart=always
+#RestartSec=20s
+Timeout=infinity
+
+#WorkingDirectory=/home/a
 
 [Install]
 WantedBy=multi-user.target
