@@ -50,7 +50,7 @@ Two thousand images of each one of the types of fruits are acquired for a total 
 
 * #### [**OPS | Collect data for model retraining**](CollectDataForRe-training.md)
 
-* #### **OPS | Collect data for analytics** <sub>*(To be published soon, email wowaiot.wseg@advantech.com to get notified)*</sub> 
+* #### [**OPS | Collect data for analytics**](CollectDataForAnalytics.md) 
 
 ## Reference Resources
 ### Sample Data for Training and Inference
